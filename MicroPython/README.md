@@ -1,4 +1,9 @@
-Resources:
+### Requirements
+
+To easily upload your code, get the webrepl repository:
+<https://github.com/micropython/webrepl>
+
+### Resources
 
 The entire documentation is to be found [here](https://docs.micropython.org/en/latest/esp8266/)
 and consists mainly of the following:
