@@ -1,3 +1,10 @@
+### Flashing MicroPython
+
+    esptool.py --port /dev/ttyUSB0 erase_flash
+    esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size=8m 0 firmware-combined.bin
+    # or a release version to the NodeMCU:
+    esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=8m -fm dio 0 esp8266-20160809-v1.8.3.bin 
+
 ### Requirements
 
 To easily upload your code, get the webrepl repository:
